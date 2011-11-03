@@ -12,15 +12,15 @@
     <resource-root path="switchyard-build-${project.version}.jar"/>
 
     <resource-root path="jbpm-human-task-${version.jbpm}.jar"/>
-    <resource-root path="jbpm-flow-${version.jpbm}.jar"/>
+    <resource-root path="jbpm-flow-${version.jbpm}.jar"/>
     <resource-root path="jbpm-workitems-${version.jbpm}.jar"/>
     <resource-root path="drools-core-${version.drools}.jar"/>
     <resource-root path="knowledge-api-${version.drools}.jar"/>  
     <resource-root path="mina-core-${version.mina}.jar"/>  
-    <resource-root path="switchyard-deploy-${project.version}"/>
+    <resource-root path="switchyard-deploy-${project.version}.jar"/>
 
     <resource-root path="jackson-core-asl-${version.jackson}.jar"/>
-    <resource-root path="jackson-mapper-asl-${version.jackson}"/>
+    <resource-root path="jackson-mapper-asl-${version.jackson}.jar"/>
 
     <resource-root path="mail-${version.mail}.jar"/>
     <resource-root path="jackson-smile-${version.jackson-smile}.jar"/>
