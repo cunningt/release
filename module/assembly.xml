@@ -12,7 +12,7 @@
         </file>
         <file>
             <source>src/main/resources/dependencies/module.xml</source>
-            <outputDirectory>${project.version}-${version.module.hash}/dependencies</outputDirectory>
+            <outputDirectory>dependencies/${project.version}-${version.module.hash}</outputDirectory>
             <filtered>true</filtered>
         </file>
     </files>
