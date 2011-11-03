@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module xmlns="urn:jboss:module:1.0" name="org.switchyard.switchyard-forge-plugin.dependencies" slot="0.3.0-SNAPSHOT-9ba78fe3-94c9-43da-8627-303158aea70f">
+  <resources>
+    <resource-root path="switchyard-api-${project.version}.jar"/>
+    <resource-root path="switchyard-common-${project.version}.jar"/>
+    <resource-root path="log4j-1.2.14.jar"/>
+    <resource-root path="switchyard-forge-common-${project.version}.jar"/>
+    <resource-root path="switchyard-config-${project.version}.jar"/>
+    <resource-root path="xalan-${version.xalan}.jar"/>
+    <resource-root path="serializer-${version.xalan}.jar"/>
+    <resource-root path="activation-${version.activation}.jar"/>
+    <resource-root path="switchyard-build-${project.version}.jar"/>
+
+    <resource-root path="jbpm-human-task-${version.jbpm}.jar"/>
+    <resource-root path="jbpm-flow-${version.jpbm}.jar"/>
+    <resource-root path="jbpm-workitems-${version.jbpm}.jar"/>
+    <resource-root path="drools-core-${version.drools}.jar"/>
+    <resource-root path="knowledge-api-${version.drools}.jar"/>  
+    <resource-root path="mina-core-${version.mina}.jar"/>  
+    <resource-root path="switchyard-deploy-${project.version}"/>
+
+    <resource-root path="jackson-core-asl-${version.jackson}.jar"/>
+    <resource-root path="jackson-mapper-asl-${version.jackson}"/>
+
+    <resource-root path="mail-${version.mail}.jar"/>
+    <resource-root path="jackson-smile-${version.jackson-smile}.jar"/>
+    <resource-root path="jboss-jms-api_1.1_spec-${version.jms-api}.jar"/>
+  </resources>
+  <dependencies>
+   <module name="javax.api"/>
+    <module name="org.jboss.forge.shell.api"/>
+  </dependencies>
+</module>
