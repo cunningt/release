@@ -25,6 +25,7 @@
         <version.jackson>1.8.0</version.jackson> 
         <version.jackson-smile>1.8.5</version.jackson-smile> 
         <version.drools>5.2.1.Final</version.drools>
+        <version.hibernate.core>3.6.7.Final</version.hibernate.core>
     </properties>
 
     <dependencies>
@@ -104,6 +105,12 @@
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-smile</artifactId>
             <version>${version.jackson-smile}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${version.hibernate.core}</version>
         </dependency>
 
         <dependency>

@@ -14,6 +14,7 @@
     <resource-root path="jbpm-human-task-${version.jbpm}.jar"/>
     <resource-root path="jbpm-flow-${version.jbpm}.jar"/>
     <resource-root path="jbpm-workitems-${version.jbpm}.jar"/>
+    <resource-root path="hibernate-core-${version.hibernate.core}.jar"/>
     <resource-root path="drools-core-${version.drools}.jar"/>
     <resource-root path="knowledge-api-${version.drools}.jar"/>  
     <resource-root path="mina-core-${version.mina}.jar"/>  
