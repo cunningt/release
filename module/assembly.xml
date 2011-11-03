@@ -7,19 +7,19 @@
     <files>
         <file>
             <source>src/main/resources/module.xml</source>
-            <outputDirectory>${project.version}</outputDirectory>
+            <outputDirectory>${project.version}-${version.module.hash}</outputDirectory>
             <filtered>true</filtered>
         </file>
         <file>
             <source>src/main/resources/dependencies/module.xml</source>
-            <outputDirectory>${project.version}/dependencies</outputDirectory>
+            <outputDirectory>${project.version}-${version.module.hash}/dependencies</outputDirectory>
             <filtered>true</filtered>
         </file>
     </files>
     <dependencySets>
         <dependencySet>
             <useTransitiveDependencies>false</useTransitiveDependencies>
-            <outputDirectory>${project.version}</outputDirectory>
+            <outputDirectory>${project.version}-${version.module.hash}</outputDirectory>
 	    <includes>
               <include>org.switchyard:switchyard-forge-bean-plugin</include>
               <include>org.switchyard:switchyard-forge-bpm-plugin</include>
@@ -32,7 +32,7 @@
         </dependencySet>
         <dependencySet>
             <useTransitiveDependencies>false</useTransitiveDependencies>
-            <outputDirectory>dependencies/${project.version}</outputDirectory>
+            <outputDirectory>dependencies/${project.version}-${version.module.hash}</outputDirectory>
             <includes>
               <include>javax.activation:activation</include>
 

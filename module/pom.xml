@@ -16,6 +16,7 @@
     <description>SwitchYard Forge Module</description>
 
     <properties>
+	<version.module.hash>9ba78fe3-94c9-43da-8627-303158aea70f</version.module.hash>
         <version.activation>1.1.1</version.activation>
         <version.mail>1.4.2</version.mail>
         <version.jms-api>1.0.0.Final</version.jms-api>
@@ -30,7 +31,7 @@
         <dependency> 
             <groupId>org.switchyard</groupId>
             <artifactId>switchyard-forge-bean-plugin</artifactId>
-            <version>0.3.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency> 
             <groupId>org.switchyard</groupId>
@@ -43,6 +44,7 @@
         <dependency> 
             <groupId>org.switchyard</groupId>
             <artifactId>switchyard-forge-clojure-plugin</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.switchyard</groupId>
