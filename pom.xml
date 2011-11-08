@@ -19,6 +19,7 @@
     </properties>
 
     <modules>
+        <module>forge-module</module>
         <module>testutil</module>
         <module>distribution</module>
         <module>plugins/mergeassembly</module>
