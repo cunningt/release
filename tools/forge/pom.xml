@@ -58,6 +58,11 @@
             <groupId>org.switchyard</groupId>
             <artifactId>switchyard-forge-soap-plugin</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.switchyard</groupId>
+            <artifactId>switchyard-forge-clojure-plugin</artifactId>
+        </dependency>
+
 
         <!-- dependencies -->
         <dependency>
